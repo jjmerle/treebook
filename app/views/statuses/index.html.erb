@@ -2,7 +2,7 @@
   <h1>All of the Statuses</h1>
 </div>
 
-<%= link_to "Post a New Status", new_status_path, class: "btn btn-success" %>
+<%= link_to "Post a New Status", new_status_path, class: "btn btn-statuses" %>
 
 <% @statuses.each do |status| %>
 <div class="status">
@@ -17,3 +17,8 @@
   </div>
 </div>
 <% end %>
+
+<div class="sandbox" >
+<%= link_to "Sign Up", edit_user_registration_path %>
+</div>
+
